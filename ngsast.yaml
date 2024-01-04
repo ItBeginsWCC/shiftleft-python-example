@@ -18,7 +18,7 @@ finding-modifications:
       - key: cvss_score
         value: 7.5
       - key: severity
-        value: moderate
+        value: critical
       - key: cvss_31_severity_rating
         value: high
       - key: reason
