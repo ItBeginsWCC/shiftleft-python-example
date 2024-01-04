@@ -16,10 +16,10 @@ finding-modifications:
     # Optionally, you can add any custom tag. Eg: a reason tag is added here
     tags:
       - key: cvss_score
-        value: 9.5
+        value: 7.5
       - key: severity
-        value: critical
+        value: moderate
       - key: cvss_31_severity_rating
-        value: critical
+        value: high
       - key: reason
         value: appsec_approved
