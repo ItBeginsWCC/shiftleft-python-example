@@ -9,7 +9,7 @@ finding-modifications:
     # Use filter to specify the category
     filter:
       category:
-        - SQL Injection
+        - Cross-Site Request Forgery
       id:
         - 9
     # Specify the value for the tags such as cvss_score, severity that you would like to use
