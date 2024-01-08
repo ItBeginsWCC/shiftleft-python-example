@@ -1,0 +1,23 @@
+inspect:
+- app:
+    name: shiftleft-python-example
+    modify-findings:
+      - any-name
+
+finding-modifications:
+  any-name:
+    # Use filter to specify the category
+    filter:
+      category:
+        - Cross-Site Request Forgery
+    # Specify the value for the tags such as cvss_score, severity that you would like to use
+    # Optionally, you can add any custom tag. Eg: a reason tag is added here
+    tags:
+      - key: cvss_score
+        value: 9.5
+      - key: severity
+        value: critical
+      - key: cvss_31_severity_rating
+        value: critical
+      - key: reason
+        value: appsec_approved
