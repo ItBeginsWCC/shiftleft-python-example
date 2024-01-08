@@ -1,7 +1,7 @@
 ---
 # This workflow integrates qwiet.ai preZero with GitHub
 # Visit https://docs.shiftleft.io for help
-name: Severity Upgrade or Downgrade
+name: Severity Upgrade Or Downgrade
 
 on:
   pull_request:
